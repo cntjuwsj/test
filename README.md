@@ -7,13 +7,13 @@ git add README.md
 
 git commit -m "first commit"
 
-git remote add origin https://github.com/cntjuwsj/test-.git
+git remote add origin https://github.com/cntjuwsj/test.git
 
 git push -u origin master
 
 ## or push an existing repository from the command line
 
- git remote add origin https://github.com/cntjuwsj/test-.git
+ git remote add origin https://github.com/cntjuwsj/test.git
  
 git push -u origin master
 
