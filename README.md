@@ -1,24 +1,69 @@
-## or create a new repository on the command line
-echo "# test-" >> README.md
+# 关于每周总结的说明
+---
 
-git init
+每人维护以自己姓名命名的md文档，若有必要，还可以建立以自己姓名命名的文件夹，用以保存附件。
 
-git add README.md
+- 尽量以MarkDown文档的形式做总结，需要引用附件的地方加链接。
+- 尽量精简内容，控制上传文件的大小，不要上传冗余文件。
 
-git commit -m "first commit"
+---
 
-git remote add origin https://github.com/cntjuwsj/test.git
+格式说明：用分隔线隔开，每周一栏，参考如下示例，但不必完全相同。
 
-git push -u origin master
 
-## or push an existing repository from the command line
+---
+### 2018-08-27 ~ 2018-09-03
 
- git remote add origin https://github.com/cntjuwsj/test.git
- 
-git push -u origin master
+### **论文阅读**
+**题目**：xxx 
 
-## or import code from another repository
+**作者**：xxx
 
-You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+**简介** ：所属的方向大类、发表时间、解决的问题，解决问题的思路、方法，核心贡献……
 
-Import code
+**技术要点** ：简要说明方法的核心原理
+
+**代码链接**：[xxx的代码](https://code.aliyun.com)，基于TensorFlow实现……
+
+**数据集**：xxx数据集，是关于xxx的数据集，大小xxG，[下载地址](https://code.aliyun.com)……
+
+**原文实验效果**：简要说明，有必要再附图
+
+**感想与思路**：与目前已有成果（自己或他人）、思路的相似与不同、可借鉴之处、自己的思路……
+
+**其他**：有必要的话，简介作者团队，系列论文 \ 工作等
+
+###  **实验** 
+
+**实验意图与方向**：eg: 直径小于0.5cm的结节良恶性分类
+
+**实验来源**：实现论文[xxx](http://www.baidu.com)的方法；在[xxx](http://www.baidu.com)的基础上改进xxx；验证 \ 实现思路；
+	
+- 若是在公开代码上做改进，需给出原始代码和数据的下载地址
+
+**实验基础**：
+
+- 已有成果 \ 结果
+
+- 已有数据 \ 可下载到的数据
+
+**思路 \ 改进概述**：（帮助整理思路，理清实验目的、步骤，面临的主要问题）
+
+**可行性**：（仔细思考实验的可行性，尽量避免做无用功）
+
+**阶段性成果**：单独撰写文档，并整理代码、模型、说明文档等，归档到到[code](https://code.aliyun.com/breaksong/DLGroup/blob/master/code/)
+
+
+### **整理或总结**
+简单的总结用图表、图片、文字等形式给出，表述要清楚。
+
+一段时间的工作总结或针对某课题的调研等，撰写单独的MarkDown文档，并在此处给出链接
+
+### **其他**
+……
+
+---
+### 2018-09-03 ~ 2018-09-09
+
+
+---
