@@ -41,4 +41,4 @@ ERFNet：仅仅删除每次下采样后的一半卷积层
 ……
 
 
-  [1]: https://gss2.bdstatic.com/
+  [1]: ./picture.png
