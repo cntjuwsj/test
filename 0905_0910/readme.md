@@ -37,7 +37,7 @@ ERFNet：仅仅删除每次下采样后的一半卷积层
 **阶段性成果**：[代码、模型、及说明](https://code.aliyun.com/breaksong/DLGroup/blob/master/code/)
 
 
-### **整理或总结**
+### **结果**
 ![此处输入图片的描述][1]
 Tiramisu_空洞卷积与原Tiramisu的不同：
 1.卷积分解
