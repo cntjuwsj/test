@@ -5,21 +5,27 @@
 
 **实验意图与方向**：甲状腺结节分割模型的优化
 
-**实验来源**：实现论文[The One Hundred Layers Tiramisu: Fully Convolutional DenseNets for Semantic Segmentation](https://arxiv.org/abs/1611.09326)（简称Tiramisu）的方法；基于[ERFNet: Efficient Residual Factorized ConvNet for Real-Time Semantic Segmentation](https://ieeexplore.ieee.org/document/8063438/?reload=true)（简称ERFNet）的方法改进[Tiramisu](https://arxiv.org/abs/1611.09326)；
+**实验来源**：
+- 实现论文[The One Hundred Layers Tiramisu: Fully Convolutional DenseNets for Semantic Segmentation](https://arxiv.org/abs/1611.09326)（简称Tiramisu）的方法；
+- 实现论文[ERFNet: Efficient Residual Factorized ConvNet for Real-Time Semantic Segmentation](https://ieeexplore.ieee.org/document/8063438/?reload=true)（简称ERFNet）的方法；
+- 基于[ERFNet: Efficient Residual Factorized ConvNet for Real-Time Semantic Segmentation](https://ieeexplore.ieee.org/document/8063438/?reload=true)（简称ERFNet）的方法改进[Tiramisu](https://arxiv.org/abs/1611.09326)；
+- 减小[ERFNet: Efficient Residual Factorized ConvNet for Real-Time Semantic Segmentation](https://ieeexplore.ieee.org/document/8063438/?reload=true)的方法模型；
 	
 - [点击这里获取Tiramisu源代码](https://github.com/HasnainRaz/FC-DenseNet-TensorFlow)
 
 **实验基础**：
 
 - 已有结果
+
 | 网络        | Tiramisu   |  ERFNet |
-| ---------   | :-------:  | :----:  |
+| :-------:   | :-------:  | :----:  |
 | 交并比      | 83%        |   82%   |
 | 模型大小    |   35.4M    |   31.5M |
 | 最小运行显存|    471M    |   305M  |
 |   运行时间  |    1.4s    |   1.0s  |
 | 平台运行显存|    <400M   |   未测  |
 | 平台运行时间|    5  s    |   未测  |
+
 - 已有数据 
 甲状腺结节图像，掩码各3917张
 
@@ -31,14 +37,15 @@ ERFNet：仅仅删除每次下采样后的一半卷积层
 **阶段性成果**：[代码、模型、及说明](https://code.aliyun.com/breaksong/DLGroup/blob/master/code/)
 
 
-### **整理或总结**
+### **结果**
 ![此处输入图片的描述][1]
-简单的总结用图表、图片、文字等形式给出，表述要清楚。
+Tiramisu_空洞卷积与原Tiramisu的不同：
+1.卷积分解
+2.双线性插值代替上采样
+3.模型结构
 
-### **过程中发现的问题及解决办法**
-针对Tiramisu_空洞卷积这次实验，在实验中仅仅测试下采样的的时间，为0.6s左右，仅仅测试第一层卷积的时间，为0.53s左右，这个问题说明时间并没有耗费在
-### **其他**
-……
+### **过程中发现的问题**
+针对Tiramisu_空洞卷积这次实验，在实验中仅仅测试下采样的的时间，为0.6s左右，仅仅测试第一层卷积的时间，为0.53s左右。
 
 
-  [1]: https://gss2.bdstatic.com/
+  [1]: ./picture.png
