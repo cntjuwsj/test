@@ -8,8 +8,7 @@
 **实验来源**：
 - 论文[The One Hundred Layers Tiramisu: Fully Convolutional DenseNets for Semantic Segmentation](https://arxiv.org/abs/1611.09326)（简称Tiramisu）的方法
 - 基于[ERFNet: Efficient Residual Factorized ConvNet for Real-Time Semantic Segmentation](https://ieeexplore.ieee.org/document/8063438/?reload=true)（简称ERFNet）的方法改进[Tiramisu](https://arxiv.org/abs/1611.09326)；
-	
-- [点击这里获取Tiramisu源代码](https://github.com/HasnainRaz/FC-DenseNet-TensorFlow)
+
 
 **实验基础**：
 
