@@ -9,7 +9,7 @@
 **实验来源**：**实验来源**：
 - 论文[The One Hundred Layers Tiramisu: Fully Convolutional DenseNets for Semantic Segmentation](https://arxiv.org/abs/1611.09326)（Tiramisu）的方法
 	
-### **数据集**：[CamVid](http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/#ClassLabels)
+### **数据集**：[CamVid](http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/#ClassLabels)十二分类
 
 **思路概述**：在公开数据集上进行实验，测试之前模型改进的效果（此数据集是TIramisu原文中用的）
 
