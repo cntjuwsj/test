@@ -14,13 +14,16 @@
 原图：
 
 ![结果](./picture/jieguo.png)
+
 不同阈值分割结果：
 
 ![结果](./picture/jieguo.png)
 ![结果](./picture/jieguo.png)
+
 原图：
 
 ![结果](./picture/jieguo.png)
+
 不同阈值分割结果：
 
 ![结果](./picture/jieguo.png)
