@@ -14,21 +14,21 @@
 
 原图：
 
-![结果](./picture/jieguo.png)
+![结果](./picture/ori_1.jpg)
 
 不同阈值分割结果：
 
-![结果](./picture/jieguo.png)
-![结果](./picture/jieguo.png)
+![结果](./picture/seg_10.jpg)
+![结果](./picture/seg_11.jpg)
 
 原图：
 
-![结果](./picture/jieguo.png)
+![结果](./picture/ori_2.jpg)
 
 不同阈值分割结果：
 
-![结果](./picture/jieguo.png)
-![结果](./picture/jieguo.png)
+![结果](./picture/seg_20.jpg)
+![结果](./picture/seg_21.jpg)
 
 **接下来的实验**：构造一个适合的数据集，然后训练分类网络，得出分割结果。
 
