@@ -11,10 +11,18 @@
 **思路概述**：将甲状腺图像用图像学方法进行分割，然后训练一个网络将分割的每一小块进行分类，将分类结果作为该块的分割结果。
 
 **分割效果**：
+原图：
+
+![结果](./picture/jieguo.png)
+不同阈值分割结果：
+
 ![结果](./picture/jieguo.png)
 ![结果](./picture/jieguo.png)
+原图：
+
 ![结果](./picture/jieguo.png)
-![结果](./picture/jieguo.png)
+不同阈值分割结果：
+
 ![结果](./picture/jieguo.png)
 ![结果](./picture/jieguo.png)
 
