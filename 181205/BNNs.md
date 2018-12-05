@@ -16,6 +16,8 @@
 
 **接下来的实验**：将池化层按照本次实验修改一下，原来的池化只取一个数，修改后的池化四个数全保留，通道变为原来的四倍。
 
+# 论文
+
 # Rethinking Binary Neural Network for Accurate Image Classification and Semantic Segmentation 
 对提高图像分类和语分割的二值神经网络精度的重新思考
 -------------
