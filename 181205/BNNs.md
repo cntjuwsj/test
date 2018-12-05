@@ -28,20 +28,41 @@ Binarization of activations:
 
  Layer-wise feature reconstruction:
  
+ ![公式](./img/层.png)
+
     Complexity:
+    
+![公式](./img/复杂度.png)
+    
     
 Group-wise feature approximation:
 
+![公式](./img/组.png)
+
+
 Learning to decompose: 
+
+![公式](./img/soft.png)
+
 
 **3. Theoretically Computational Complexity analysis**
 编码器上的二值化必然会对最终的预测造成较大的偏差。文中认为对于分割来说，获取多尺度信息是对任意尺度区域进行精确分类的关键，提出Binary Parallel Astrous Convolution
 (BPAC). 
+
+![公式](./img/BPAC.png)
+
 
 ###**理论复杂度计算：**
 
 
 ##**实验结果**
 **ImageNet分类**
+
+![公式](./img/ImageNet.png)
+
+
 **PASCAL VOC分割**
+
+![公式](./img/分割结果.png)
+
 
