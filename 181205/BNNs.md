@@ -46,6 +46,7 @@ Learning to decompose:
 
 
 **3. Theoretically Computational Complexity analysis**
+
 编码器上的二值化必然会对最终的预测造成较大的偏差。文中认为对于分割来说，获取多尺度信息是对任意尺度区域进行精确分类的关键，提出Binary Parallel Astrous Convolution
 (BPAC). 
 
@@ -56,6 +57,7 @@ Learning to decompose:
 
 
 ##**实验结果**
+
 **ImageNet分类**
 
 ![公式](./img/ImageNet.png)
