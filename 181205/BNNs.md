@@ -21,7 +21,8 @@ Binarization of activations:
 
 ![公式](./img/公式2.png)
 
-Remark:大多数以往的BNNs集中在精确近似上，本文提出的是训练BNNs。
+**Remark:**
+大多数以往的BNNs集中在精确近似上，本文提出的是训练BNNs。
 
 **2. Network Binary Decomposition**
 
