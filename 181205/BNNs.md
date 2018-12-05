@@ -31,9 +31,7 @@ Binarization of activations:
  ![公式](./img/层.png)
 
     Complexity:
-    
-![公式](./img/复杂度.png)
-    
+    ![公式](./img/复杂度.png)
     
 Group-wise feature approximation:
 
@@ -53,6 +51,8 @@ Learning to decompose:
 ![公式](./img/BPAC.png)
 
 ### **理论复杂度计算：**
+
+![公式](./img/复杂度.png)
 
 ## **实验结果**
 
