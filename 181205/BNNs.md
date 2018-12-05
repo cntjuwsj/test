@@ -52,9 +52,7 @@ Learning to decompose:
 
 ![公式](./img/BPAC.png)
 
-
 ###**理论复杂度计算：**
-
 
 ##**实验结果**
 
