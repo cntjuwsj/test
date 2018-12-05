@@ -13,6 +13,7 @@
 ## **方法**
 **1. Binarization function**
 对于卷积层，定义了输入**x**权值滤波器**w**和输出**y**
+
 Binarization of weights ：
 
 ![公式](./img/公式1.png)
