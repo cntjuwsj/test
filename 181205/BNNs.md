@@ -30,8 +30,8 @@ Binarization of activations:
  
  ![公式](./img/层.png)
 
-    Complexity:
-    ![公式](./img/复杂度.png)
+ Complexity:
+ ![公式](./img/复杂度公式.png)
     
 Group-wise feature approximation:
 
